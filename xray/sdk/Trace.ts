@@ -1,6 +1,6 @@
-import { XRayStep, XRayTrace } from "../core/types";
-import { inMemoryStore } from "../store/InMemoryStore";
-import { Step } from "./Step";
+import { XRayStep, XRayTrace } from "../core/types.js";
+import { inMemoryStore } from "../store/InMemoryStore.js";
+import { Step } from "./Step.js";
 
 export class Trace {
   private trace: XRayTrace;

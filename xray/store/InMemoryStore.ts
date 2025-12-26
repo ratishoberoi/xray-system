@@ -1,4 +1,4 @@
-import { XRayTrace } from "../core/types";
+import { XRayTrace } from "../core/types.js";
 
 class InMemoryStore {
   private traces: Map<string, XRayTrace> = new Map();

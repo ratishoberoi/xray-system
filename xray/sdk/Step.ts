@@ -1,4 +1,4 @@
-import { XRayEvaluation, XRayStep } from "../core/types";
+import { XRayEvaluation, XRayStep } from "../core/types.js";
 
 export class Step {
   private step: XRayStep;
